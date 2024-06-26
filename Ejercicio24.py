@@ -14,6 +14,7 @@ class Estudiante():  #Aqui se crea la clase
     def hablar(self):
         print("bla, bla, bla...")
 
+# Nueva Clase 
 class Maestro():
     def __init__(self, nombre, escuela):
         self.nombre = nombre
