@@ -4,7 +4,6 @@ class Estudiante():  #Aqui se crea la clase
         self.edad = edad
         self.semestre = semestre
     
-    #Definicion de métodos de la clase
     def estudiar(self):
         print("Estudiando...")
 
