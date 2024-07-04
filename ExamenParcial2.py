@@ -1,4 +1,5 @@
-class Estudiante():  #Aqui se crea la clase
+# C R E A C I Ó N   D E   L A S   C L A S E S:
+class Estudiante():  
     def __init__(self, nombre, edad, semestre):
         self.nombre = nombre
         self.edad = edad
@@ -27,7 +28,8 @@ class Estudiante():  #Aqui se crea la clase
             print("El estudiante reprobó")
 
     def justificar_falta(self, justificante):
-        print(f'{self.nombre} justificó una falta')
+        if justificante:
+            print(f'{self.nombre} justificó una falta')
 
 
 
