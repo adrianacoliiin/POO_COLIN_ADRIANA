@@ -24,17 +24,17 @@ for alumno in alumnos:
 alumno_nuevo = ("Adriii", 18, "Cerquita", 1)
 cursor.execute("INSERT INTO alumnos (nombre, edad, direccion, id_maestro) VALUES (%s, %s, %s, %s)", alumno_nuevo)
 connection.commit()
-print("\nNuevo alumno insertado")
+print("Alumno insertado")
 
 # U P D A T E 
 cursor.execute("UPDATE alumnos SET edad = 19 WHERE nombre = 'Adriii'")
 connection.commit()
-print("\nEdad actualizada")
+print("Edad actualizada")
 
 # D E L E T E 
 cursor.execute("DELETE FROM alumnos WHERE nombre = 'Adriii'")
 connection.commit()
-print("\nAlumno eliminado")
+print("Alumno eliminado")
 
 
 cursor.close()
